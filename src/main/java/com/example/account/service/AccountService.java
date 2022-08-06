@@ -44,6 +44,8 @@ public class AccountService {
         String newAccountNumber = accountRepository.findFirstByOrderByIdDesc()
                 .map(account -> (Integer.parseInt(account.getAccountNumber())) +1 + "")
                 .orElse("1000000000");
+
+        //String testNewAccountNumber = Math.random();
         //---------------------------------------------------
 
 
