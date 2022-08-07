@@ -9,7 +9,7 @@ POST http://localhost:8080/account
 Content-Type: application/json
 
 {
-  "userId": 1,
+  "userId": 4,
   "initialBalance": 1234500
 }
 
@@ -19,6 +19,6 @@ Content-Type: application/json
 
 {
   "userId": 1,
-  "accountNumber": "1000000000"
+  "accountNumber": "0788038168"
 }
 
